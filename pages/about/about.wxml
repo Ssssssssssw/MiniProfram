@@ -1,3 +1,4 @@
 <!--pages/about/about.wxml-->
 <text>pages/about/about.wxml</text>
 <view wx:for="{{100}}" wx:key="key">{{item}}</view>
+<view>haha</view>
