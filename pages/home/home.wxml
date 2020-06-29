@@ -1,3 +1,5 @@
 <!--pages/home/home.wxml-->
-<text class="text">hello word</text>
-<button size="mini">按钮</button>
+<view wx:for="{{100}}"  wx:key="key">我丢{{item+1}}</view>
+<view wx:for="{{array}}" wx:key="key">{{item.address}}</view>
+{{count}}
+<button bindtap="add">+</button>

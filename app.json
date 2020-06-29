@@ -1,6 +1,28 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/we/we"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FF3333",
+    "backgroundColor": "blue",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "小程序",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#FF3333",
+    "list": [
+      {
+        "custom": true,
+        "position":"top",
+        "pagePath": "pages/home/home",
+        "text": "我的"
+      },{
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      } 
+    ]
+  }
 }
