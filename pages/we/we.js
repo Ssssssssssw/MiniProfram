@@ -1,6 +1,6 @@
 Page({
   data:{
-      imgPath:null
+      imgPath:""
   },
   handlerscroll(e){
       console.log("距离100px",e)
