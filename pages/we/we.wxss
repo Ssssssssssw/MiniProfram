@@ -1,1 +1,48 @@
 /* pages/we/we.wxss */
+
+.container{
+  background: purple;
+  white-space: nowrap;
+  height: 300px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+    display: inline-block;
+}
+.item2{
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin: 10px auto;
+}
+.pressed{
+  background-color:red;
+}
+
+.father{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.son{
+  width: 70px;
+  height: 70px;
+  background: blue;
+}
+.grandson{
+  width: 50px;
+  height: 50px;
+  background:yellow;
+}
+.fth-hover{
+  background: green;
+}
+.son-hover{
+  background: #000;
+}
+.grandson-hover{
+  background: #FF00FF;
+}

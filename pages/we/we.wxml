@@ -1,2 +1,44 @@
 <!--pages/we/we.wxml-->
-<text>pages/we/we.wxml</text>
+
+<view>-----scroll-view------</view>
+<scroll-view class="container"  scroll-x  scroll-y lower-threshold="100" bindscrolltolower="handlerscroll">
+  <view class="item" wx:for="{{10}}" wx:key="key" >{{item}}</view>
+  <!-- <view class="item2" wx:for="{{10}}" wx:key="key">{{item}}</view> -->
+</scroll-view>
+
+<view>--------input---------</view>
+<input type="text" placeholder="hahahhah" style="border: 1px solid red; margin: 20px"/>
+<input 
+    bindinput="input"
+    bindfocus="focus"
+    bindblur="blur"
+    style="border: 1px solid red; margin: 20px"/>
+
+<view>-------image---------</view>
+    <image class="sun" src="/assets/image/sun.jpg" />
+    <image wx:for="{{1}}" wx:key="key" bindload="perform" lazy-load src="/assets/image/timg.jpg" show-menu-by-longpress/>
+
+<!-- <image src="{{imgPath}}"></image>
+<button bindtap="pitchPhoto">选择图片</button> -->
+
+<view>----------view----------</view>
+<view class="father" hover-class="fth-hover">
+    <view class="son" hover-class="son-hover" >son
+        <view class="grandson" hover-class="grandson-hover" hover-stop-propagation>grand</view>
+    </view>
+</view>
+
+<text>--------text组件----------</text>
+<view selectable space>选中选中选中选中选中选中选中选中</view>
+<text>选不中选不中选不中选不中选不中选不中选不中选不中选不中</text>
+<view></view>
+<view></view>
+<text space="ensp">你     好</text>
+<text space="emsp">你     好</text>
+<text space="nbsp">你     好\n</text>
+<text>----button组件----</text>
+<button>按钮</button>
+<button size="mini">按钮</button>
+<button size="mini" type="primary" plain>按钮</button>
+<button size="mini" hover-class="pressed">按钮</button>
+<button size="mini" hover-class="pressed" hover-start-time="1000">按钮</button>

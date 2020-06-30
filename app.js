@@ -15,7 +15,6 @@
       //小程序界面显示出来执行的生命周期
       onShow( options ){
           console.log("显示出来")
-          console.log(options)
           switch(options.scene){
               case 1001:
                 break;

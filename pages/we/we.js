@@ -1,66 +1,33 @@
-// pages/we/we.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  data:{
+      imgPath:null
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  handlerscroll(e){
+      console.log("距离100px",e)
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  input(e){
+      console.log("输入时",e);
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  focus(e){
+    console.log("聚焦",e);
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  blur(e){
+    console.log("失焦",e);
+    
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  perform(){
+    console.log("123");
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  pitchPhoto(){
+    const _this = this;
+    wx.chooseImage({
+        success(res){
+             console.log(res);
+             const path = res.tempFilePaths[0]
+             _this.setData({
+                imgPath: path
+             })
+        }
+    })
   }
 })
