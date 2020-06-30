@@ -3,3 +3,8 @@
 <view wx:for="{{array}}" wx:key="key">{{item.address}}</view>
 {{count}}
 <button bindtap="add">+</button>
+
+<button size="mini" 
+        open-type="getUserInfo" 
+        bindgetuserinfo="userinfo">授权</button>
+        <open-data type="userCity"></open-data>

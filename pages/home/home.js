@@ -24,5 +24,8 @@ Page({
     this.setData({
         count: this.data.count+1
     })
+  },
+  userinfo(event){
+      console.log(event);
   }
 })

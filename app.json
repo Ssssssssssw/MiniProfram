@@ -16,13 +16,15 @@
     "list": [
       {
         "custom": true,
-        "position":"top",
+        "position": "top",
         "pagePath": "pages/home/home",
         "text": "我的"
-      },{
+      },
+      {
         "pagePath": "pages/about/about",
         "text": "关于"
-      } 
+      }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap0.json"
 }
