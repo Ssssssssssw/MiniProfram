@@ -66,9 +66,9 @@
 			"current": -1,
 			"list": [
 				{
-					"id": 0,
-					"name": "我的",
-					"pathName": "pages/we/we",
+					"id": -1,
+					"name": "共同属性",
+					"pathName": "pages/property/property",
 					"query": "",
 					"scene": null
 				}

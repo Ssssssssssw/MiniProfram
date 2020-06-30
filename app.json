@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/about/about",
-    "pages/we/we"
+    "pages/we/we",
+    "pages/property/property"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FF3333",
@@ -24,8 +25,8 @@
         "text": "关于"
       },
       {
-        "pagePath": "pages/we/we",
-        "text": "我的"
+        "pagePath": "pages/property/property",
+        "text": "属性"
       }
     ]
   },
