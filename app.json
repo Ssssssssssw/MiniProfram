@@ -6,7 +6,7 @@
   ],
   "window": {
     "navigationBarBackgroundColor": "#FF3333",
-    "backgroundColor": "blue",
+    "backgroundColor": "#00CCFF",
     "backgroundTextStyle": "light",
     "navigationBarTitleText": "小程序",
     "enablePullDownRefresh": true
@@ -26,5 +26,5 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap0.json"
+  "sitemapLocation": "sitemap.json"
 }
