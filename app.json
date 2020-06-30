@@ -16,13 +16,16 @@
     "list": [
       {
         "custom": true,
-        "position": "top",
         "pagePath": "pages/home/home",
         "text": "我的"
       },
       {
         "pagePath": "pages/about/about",
         "text": "关于"
+      },
+      {
+        "pagePath": "pages/we/we",
+        "text": "我的"
       }
     ]
   },

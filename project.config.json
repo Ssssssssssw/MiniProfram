@@ -13,7 +13,7 @@
 		"newFeature": false,
 		"coverView": true,
 		"nodeModules": false,
-		"autoAudits": false,
+		"autoAudits": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
 		"uglifyFileName": false,
@@ -31,7 +31,7 @@
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.1",
+	"libVersion": "2.11.2",
 	"appid": "wx3c9a81dd5e269cc2",
 	"projectname": "miniprogram-1",
 	"debugOptions": {
@@ -66,9 +66,10 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "关于",
-					"pathName": "pages/about/about",
+					"id": 0,
+					"name": "我的",
+					"pathName": "pages/we/we",
+					"query": "",
 					"scene": null
 				}
 			]
