@@ -1,0 +1,14 @@
+<!--pages/wxml/wxml.wxml-->
+<text>{{name}}</text>
+<view>{{nowTime}}</view>
+
+<view>----------if条件判断----------</view>
+<view wx:if="{{false}}">haha</view>
+<view hidden>hhh</view>
+
+<block wx:if="{{true}}">
+    <button>按钮</button>
+    <input value="nihao" style="border: 1px solid red"/>
+</block>
+  <view wx:for="{{list}}" wx:for-item="num" wx:key="item">{{num}}</view>
+

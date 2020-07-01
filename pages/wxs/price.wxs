@@ -1,0 +1,13 @@
+
+function priceFormat(price,num){
+  var num = num || 2
+  return price.toFixed(num)
+}
+// function time(str,format){
+//     return 
+// }
+
+module.exports = {
+  priceFormat : priceFormat,
+  // time: time
+}
