@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/wxs/wxs",
+    "pages/wxml/wxml",
     "pages/home/home",
     "pages/about/about",
     "pages/we/we",
@@ -16,17 +18,12 @@
     "selectedColor": "#FF3333",
     "list": [
       {
-        "custom": true,
-        "pagePath": "pages/home/home",
-        "text": "我的"
+        "pagePath": "pages/wxs/wxs",
+        "text": "wxs"
       },
       {
         "pagePath": "pages/about/about",
-        "text": "关于"
-      },
-      {
-        "pagePath": "pages/property/property",
-        "text": "属性"
+        "text": "about"
       }
     ]
   },

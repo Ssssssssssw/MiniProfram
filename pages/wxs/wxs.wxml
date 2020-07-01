@@ -1,0 +1,32 @@
+<!--pages/wxs/wxs.wxml-->
+<button bindtap="handlerChilk" size="mini">按钮</button>
+<view>常见的一些事件</view>
+<view class="box" style="width: 100px; height: 100px; background:red"
+      bindtouchstart="handlerTouchStart" 
+      bindtouchmove="handlerMove"
+      bindtap="handlerChilk"
+></view>
+<view class="text" style="display: flex">
+  <block wx:for="{{list}}" wx:key="index">
+      <view
+       style="flex:1;text-align: center"
+       bindtap="clickText" 
+       data-index="{{index}}">
+        {{item}}
+       </view>
+  </block>
+</view>
+       <view>{{ranking}}</view>
+
+
+<view>-------------------------------</view>
+<wxs src="./info.wxs" module="one"/>
+<wxs src="./price.wxs" module="two"/>
+<view>{{one.a}}</view>
+<view>{{one.name}}</view>
+<view>{{one.address(2,3)}}</view>
+<view>{{one.test()}}</view>
+
+<view>{{two.priceFormat(price,3)}}</view>
+<view>{{age}}</view>
+<view>{{two.time(time)}}</view>

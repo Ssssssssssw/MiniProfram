@@ -1,1 +1,13 @@
 /* pages/property/property.wxss */
+@import "./style/text.wxss";
+@import "./style/serch.wxss";
+.style{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}
+.style2{
+  width: 200rpx;
+  height: 200rpx;
+  background: purple;
+}
