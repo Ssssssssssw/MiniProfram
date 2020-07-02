@@ -1,0 +1,8 @@
+<!--components/c-tabbar/c-tabbar.wxml-->
+<view class="c-tabbar">
+<block   wx:for="{{list}}" wx:key="key">
+    <view class="tabbar-item {{count == index ? 'red' : ''}}" bindtap="click" data-index="{{index}}">
+      <text>{{item}}</text>
+    </view>
+</block>
+</view>

@@ -1,0 +1,3 @@
+<!--pages/tabbar/tabbar.wxml-->
+<c-tabbar list="{{['流行','摇滚','古典','民谣']}}" bind:ice="click"/>
+<view>{{title}}</view> 

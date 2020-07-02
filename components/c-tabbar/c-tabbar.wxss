@@ -1,0 +1,19 @@
+/* components/c-tabbar/c-tabbar.wxss */
+.c-tabbar{
+    height: 100rpx;
+    display: flex;
+    margin:0 auto;
+    line-height: 100rpx;
+}
+.tabbar-item{
+  flex: 1;
+  text-align: center;
+}
+.red{
+  color: red;
+  
+}
+.red text {
+  padding: 10rpx 10rpx;
+  border-bottom: 6rpx solid red;
+}

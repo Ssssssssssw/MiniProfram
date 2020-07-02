@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "prop":"/components/prop-transfer/prop-transfer"
+  }
+}
