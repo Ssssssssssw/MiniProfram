@@ -1,0 +1,4 @@
+<!--pages/transferData/transferData.wxml-->
+<text>pages/transferData/transferData.wxml</text>
+<view>{{count}}</view>
+<prop text="你好" c-red="red" c-purple="purple" c-ylw="yellow" bind:ice="click"/>

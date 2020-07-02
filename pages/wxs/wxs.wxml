@@ -1,5 +1,7 @@
 <!--pages/wxs/wxs.wxml-->
-<button bindtap="handlerChilk" size="mini">按钮</button>
+<my-box/>
+<title/>
+<button bindtap="handlerChilk" size="mini" id="btn1">按钮</button>
 <view>常见的一些事件</view>
 <view class="box" style="width: 100px; height: 100px; background:red"
       bindtouchstart="handlerTouchStart" 

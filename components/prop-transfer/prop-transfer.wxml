@@ -1,0 +1,7 @@
+<!--components/prop-transfer/prop-transfer.wxml-->
+<button bind:tap="click">+1</button>
+<view class="title">{{text}}</view>
+<view>内容</view>
+<view class="c-red">红色</view>
+<view class="c-purple">紫色</view>
+<view class="c-ylw">黄色</view>

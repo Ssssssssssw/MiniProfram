@@ -1,0 +1,11 @@
+/* pages/transferData/transferData.wxss */
+
+.red{
+  color: red;
+}
+.purple{
+  color: purple;
+}
+.yellow{
+  color: yellow;
+}

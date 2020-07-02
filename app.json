@@ -1,11 +1,14 @@
 {
   "pages": [
+    "pages/tabbar/tabbar",
+    "pages/transfer/transfer",
+    "pages/about/about",
     "pages/wxs/wxs",
     "pages/wxml/wxml",
     "pages/home/home",
-    "pages/about/about",
     "pages/we/we",
-    "pages/property/property"
+    "pages/property/property",
+    "components/prop-transfer/prop-transfer"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FF3333",
@@ -18,8 +21,8 @@
     "selectedColor": "#FF3333",
     "list": [
       {
-        "pagePath": "pages/wxs/wxs",
-        "text": "wxs"
+        "pagePath": "pages/tabbar/tabbar",
+        "text": "tabbar"
       },
       {
         "pagePath": "pages/about/about",
