@@ -1,3 +1,8 @@
 <!--pages/tabbar/tabbar.wxml-->
 <c-tabbar list="{{['流行','摇滚','古典','民谣']}}" bind:ice="click"/>
 <view>{{title}}</view> 
+<c-slot>
+    <view slot="text">叫爸爸</view>
+</c-slot>
+<view>{{name}}</view>
+<navigator url='/pages/toast/toast'>跳转到toast</navigator>

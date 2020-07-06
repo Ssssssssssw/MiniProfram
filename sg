@@ -1,0 +1,15 @@
+  wx.request({
+              url: "http://123.207.32.32:3000/auth",
+              method: 'post',
+              header:{
+                  token
+              },
+              success:(res)=>{
+                console.log(res);
+                if( !res.data.errorCode ){
+                      this.globalData.token = token
+                }else{
+                    this.login();
+                }
+              }
+            })

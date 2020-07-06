@@ -1,0 +1,7 @@
+<!--pages/toast/toast.wxml-->
+<text>pages/toast/toast.wxml</text>
+<button bind:tap="showToast">弹窗toast</button>
+<button>按钮</button>
+<button bind:tap="showModal">模态对话框</button>
+<button bind:tap="showLoading">loading提示框</button>
+ <button bind:tap="showActionSheet">显示操作菜单</button>

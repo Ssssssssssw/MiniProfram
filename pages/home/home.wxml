@@ -1,4 +1,14 @@
 <!--pages/home/home.wxml-->
+
+<button bind:tap='jumpToast'>跳转到toast</button>
+
+<view>---------跳转开始-----------</view>
+{{name}}
+<navigator url='/pages/toast/toast'>跳转到toast</navigator>
+<view>---------跳转结束-----------</view>
+<view>------------登录开始---------------</view>
+                <view>JS文件里</view>
+<view>------------登录结束---------------</view>
 <view wx:for="{{100}}"  wx:key="key">我丢{{item+1}}</view>
 <view wx:for="{{array}}" wx:key="key">{{item.address}}</view>
 {{count}}

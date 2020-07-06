@@ -1,0 +1,8 @@
+<!--components/c-slot/c-slot.wxml-->
+<view>slot开始</view>
+<view style="width: 200rpx;height:200rpx;background: red;">
+  <slot name="text"></slot>
+</view>
+  <slot name="image"></slot>
+<slot name="url"></slot>
+<view>slot结束</view>

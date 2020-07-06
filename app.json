@@ -1,14 +1,16 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/toast/toast",
     "pages/tabbar/tabbar",
     "pages/transfer/transfer",
     "pages/about/about",
     "pages/wxs/wxs",
     "pages/wxml/wxml",
-    "pages/home/home",
     "pages/we/we",
     "pages/property/property",
-    "components/prop-transfer/prop-transfer"
+    "components/prop-transfer/prop-transfer",
+    "components/c-slot/c-slot"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FF3333",
@@ -21,12 +23,12 @@
     "selectedColor": "#FF3333",
     "list": [
       {
-        "pagePath": "pages/tabbar/tabbar",
-        "text": "tabbar"
+        "pagePath": "pages/home/home",
+        "text": "home"
       },
       {
-        "pagePath": "pages/about/about",
-        "text": "about"
+        "pagePath": "pages/tabbar/tabbar",
+        "text": "tabbar"
       }
     ]
   },

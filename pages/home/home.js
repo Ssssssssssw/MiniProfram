@@ -1,6 +1,6 @@
 Page({
   data:{
-    name:"sun",
+    name:"",
     count: 2,
     array:[
       {
@@ -19,6 +19,17 @@ Page({
         address: "深圳市"
       }
     ]
+  },
+  jumpToast(){
+      wx.navigateTo({
+        url: `/pages/toast/toast?count=${this.data.count}`,
+        events: {
+          // 为指定事件添加一个监听器，获取被打开页面传送到当前页面的数据
+          acceptDataFromOpenedPage: function(data) {
+            console.log(data)
+          }
+        }
+      })
   },
   add(){
     this.setData({

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "c-tabbar":"/components/c-tabbar/c-tabbar"
+    "c-tabbar":"/components/c-tabbar/c-tabbar",
+    "c-slot":"/components/c-slot/c-slot"
   }
 }
